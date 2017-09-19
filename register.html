@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<head>
+     <title>Register</title>
+ 
+     
+    
+      <link href="css/reset.css" rel="stylesheet" type="text/css">
+      <link href="css/style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+
+  <body>
+  
+  <div id="wrapper"> 
+  
+      <header>
+      
+        <div id="logo"></div>
+         
+         <nav>
+         
+         <ul>
+        <li><a href="home.php">Home</a></li>
+     
+         <li><a href="mypost.php">Post</a></li>
+         <li><a href="account.php">My Account</a></li>
+         </ul>
+         
+          </nav>
+          
+         
+      </header>
+      
+     <div id="content">
+     
+    
+     
+      <section>
+    <form action="register.php" method="post" enctype="multipart/form-data">
+    <fieldset>
+      <legend> User Information</legend>
+      <p>
+        <label> First Name: </label>
+        <input type="text" name=" firstname" id="firstname" class="formstyle"/>
+      </p>
+      <p>
+        <label> Last Name: </label>
+        <input type="text" name="lastname" id="lastname" class="formstyle"/>
+      </p>
+      <p>
+        <label> Email: </label>
+        <input type="text" name="email" id=" email" class="formstyle"/>
+      </p>
+     
+      <p>
+        <label> Userame: </label>
+        <input type="text" name=" username" id=" username" class="formstyle"/>
+      </p>
+      <p>
+        <label> Password: </label>
+        <input type="password" name="password" id="password" class="formstyle"/>
+      </p>
+      
+      
+       <p>
+          <label> Profile Picture: </label>
+           <input type="file" name="fileToUpload" id="fileToUpload">
+      </p>
+      
+      <p>
+        <input type="submit">
+        <input type="reset">    
+      </p>
+      
+       </fieldset>
+   </form>
+      </section>
+      </div> <!-- /end #content-->
+      
+      
+      
+      
+
+      <footer>
+     <p>Arvind Dhindsa &copy; 2017</p>
+      </footer>
+
+   </div> <!-- /end #wrapper-->
+  </body>
+</html>
